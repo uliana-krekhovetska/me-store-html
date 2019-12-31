@@ -1,0 +1,700 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-banner {
+  height: 74px;
+  background: linear-gradient(to right, #f9236f 0%, #f92346 100%), url("../images/top-banner-background.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+
+  &__container {
+    width: 1171px;
+    height: 74px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    vertical-align: center;
+  }
+}
+
+.meStore {
+  height: 121px;
+  background-color: #f8f9fa87;
+  z-index: 1;
+  position: relative;
+
+  &__container {
+    width: 1171px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ADADAD;
+  }
+
+  &__info {
+    width: 443px;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__options {
+    width: 77px;
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: #222222;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__contain {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__icons {
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35px;
+  }
+
+  .fa {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+
+  .top-menu {
+    &__link {
+      color: #222222 !important;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .navbar {
+    padding: 0;
+    width: 1175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .nav-link {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .navbar-collapse {
+    width: 900px;
+    justify-content: flex-end;
+  }
+}
+
+.fashion-carnival {
+  height: 1057px;
+  background-image: url("../images/fashion-carnival-background.png"), url("../images/fashion-carnival-image.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+  margin-top: -121px;
+
+  &__container {
+    width: 1171px;
+    padding-top: 200px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__content {
+    width: 612px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 262px;
+    z-index: 1;
+  }
+
+  &__title {
+    color: #f9236f;
+    font-size: 121px;
+    font-weight: bold;
+    line-height: 94.22px;
+    text-transform: uppercase;
+    letter-spacing: -1.18px;
+    text-align: center;
+  }
+
+  &__title p:first-child {
+    color: #222222;
+  }
+
+  &__date {
+    color: #222222;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 92.79px;
+    text-align: center;
+    width: 385px;;
+  }
+
+  &__text {
+    color: #494949;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  &__btn {
+    width: 156px;
+    height: 47px;
+    background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 57px;
+  }
+
+  &__image {
+    position: relative;
+    right: 151px;
+    bottom: 17px;
+  }
+}
+
+.promotion {
+  height: 1160px;
+  background-image: url("../images/promotion-background.png");
+  background-size: cover;
+
+  &__container {
+    width: 1171px;
+    height: 1220px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    z-index: 1;
+  }
+
+  .benefits {
+    &__content {
+      width: 955px;
+      height: 170px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+      position: relative;
+      bottom: 50px;
+    }
+
+    &__item {
+      width: 224px;
+      height: 170px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &__icon {
+      width: 126px;
+      height: 126px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+
+    &__title {
+      color: #000000;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: -17px;
+    }
+
+    &__details {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 15px;
+    }
+
+    .fa {
+      color: #5c5c5c;
+      font-size: 50px;
+      font-weight: 400;
+    }
+  }
+
+  .banner {
+    &__content {
+      width: 1108px;
+      height: 292px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 536px;
+      height: 292px;
+      background-color: #d7eff9;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    &__wrapper {
+      width: 230px;
+      height: 215px;
+      z-index: 1;
+      margin-top: 46px;
+      margin-left: 43px;
+    }
+
+    &__title {
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 41.84px;
+      color: #222222;
+      letter-spacing: -1.18px;
+      margin-bottom: 10px;
+
+      > div:last-child {
+        color: #f9236f;
+      }
+    }
+
+    &__text {
+      color: #494949;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      margin-bottom: 30px;
+    }
+
+    &__btn {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold;
+      width: 156px;
+      height: 47px;
+      background-color: #000000;
+      background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
+      cursor: pointer;
+      border: none;
+    }
+
+    &__img {
+      z-index: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1108px;
+    height: 562px;
+    margin: 0 auto;
+    margin-top: 105px;
+
+    &__title {
+      color: #000000;
+      font-size: 26px;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    &__subtitle {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 22px;
+    }
+
+    &__content {
+      width: 1108px;
+      height: 415px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 249px;
+      height: 415px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &__name {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+    }
+
+    &__brand {
+      font-size: 16px;
+      margin-bottom: 19px;
+    }
+
+    &__rate {
+      width: 90px;
+      height: 14px;
+    }
+
+    .fa {
+      color: #ffc808;
+      font-size: 15px;
+    }
+
+    .fa-star-o {
+      color: #ffc808;
+    }
+
+    &__price {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    &__price span:first-child {
+      color: #6b6b6b;
+      text-decoration: line-through;
+      font-weight: 400;
+    }
+  }
+}
+
+.latest-news {
+  height: 888px;
+  background-color: #ffffff;
+  background-image: url("../images/latest-news-background.png");
+  background-size: cover;
+  position: relative;
+  bottom: 65px;
+  z-index: 0;
+
+  &__container {
+    width: 1171px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 113px;
+  }
+
+  &__info {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 48px;
+  }
+
+  &__content {
+    width: 1171px;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    margin: 30px 35px 0 30px;
+  }
+
+  &__item {
+    width: 362px;
+    height: 470px;
+    background-color: #ffffff;
+  }
+
+  &__title {
+    color: #515151;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    color: #a8a8a8;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 23px;
+  }
+
+  &__text {
+    color: #494949;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    width: 99px;
+    height: 30px;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
+    border: none;
+  }
+
+  &__icons {
+    float: right;
+    position: relative;
+    top: 15px;
+  }
+
+  .fa {
+    font-size: 15px;
+    color: #f92349;
+  }
+
+  .fa-heart {
+    padding-right: 10px;
+    border-right: 1px solid #b9b9b9;
+  }
+
+  .fa-comment {
+    padding-left: 7px;
+  }
+}
+
+.summer-sale {
+  &__container {
+    width: 1171px;
+    margin: 0 auto;
+    height: 893px;
+    background-color: #ffffff;
+  }
+  &__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  &__content {
+    width: 362px;
+    height: 585px;
+    margin-top: 25px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c2c2c2;
+  }
+
+  &__item:last-child {
+    border-bottom: none;
+  }
+
+  &__wrapper {
+    width: 235px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  &__item-name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__item-brand {
+    color: #939393;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .fa {
+    color: #ffc808;
+    font-size: 15px;
+  }
+
+  .fa-star-o {
+    color: #ffc808;
+  }
+
+  &__item-price {
+    color: #f92349;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__item-price span:first-child {
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+  }
+}
+
+.summer-sale__banner {
+  width: 312px;
+  height: 588px;
+  background-image: url("../images/summer-sale-banner-background.png");
+  background-size: cover;
+
+  &-wrapper {
+    margin: 88px 56px 80px 62px;
+  }
+
+  &-text {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+
+    span:first-child {
+      font-size: 75px;
+      line-height: 60.99px;
+    }
+
+    span:nth-child(2) {
+      font-size: 130px;
+      line-height: 98.57px;
+    }
+
+    span:nth-child(3) {
+      line-height: 49.91px;
+      font-size: 64px;
+    }
+
+    span:nth-child(4) {
+      font-size: 120px;
+      line-height: 98.09px;
+    }
+  }
+
+  &-discount {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 134px;
+    font-weight: 400;
+    border-top: 5px solid #ffffff;
+    width: 183px;
+  }
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+
+  &__container {
+    width: 1107px;
+    height: 269px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #c2c2c2;
+  }
+  &__wrapper {
+    width: 654px;
+    height: 235px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__title {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+  &__text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 34px;
+  }
+}
+
+
+
+
+

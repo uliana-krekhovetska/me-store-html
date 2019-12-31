@@ -1,0 +1,14 @@
+{
+  "name": "lesson-template",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Uliana Krekhovetska",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass scss/main.scss:styles/main.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.24.0"
+  }
+}
