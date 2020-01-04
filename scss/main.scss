@@ -25,7 +25,6 @@ body {
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
-    vertical-align: center;
   }
 }
 
@@ -799,15 +798,19 @@ body {
     width: 305px;
     height: 280px;
   }
+
   &__column:nth-child(2) {
     width: 250px;
   }
+
   &__column:nth-child(3) {
     width: 250px;
   }
+
   &__column:nth-child(4) {
     width: 285px;
   }
+
   &__icon {
     margin-right: 8px;
   }
@@ -903,6 +906,168 @@ body {
   }
 }
 
+@media (max-width: 1200px) {
+  .top-banner {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+  }
+  .meStore {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    .navbar {
+      width: 100%;
+    }
+  }
+  .fashion-carnival {
+    height: 930px;
+
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__image {
+      display: none;
+    }
+  }
+  .promotion {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    .benefits {
+      &__content {
+        width: 100%;
+      }
+    }
+
+    .banner {
+      &__content {
+        width: 100%;
+      }
+
+      &__item {
+        width: 440px;
+      }
+    }
+
+    .products {
+      width: 100%;
+
+      &__content {
+        width: 100%;
+      }
+
+      &__item:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+  .latest-news {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    &__content {
+      width: 100%;
+      padding: 0 40px;
+      justify-content: space-evenly;
+    }
+
+    &__item {
+      width: 250px;
+      height: 485px;
+    }
+
+    &__image {
+      width: 100%;
+    }
+  }
+  .summer-sale {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    &__content {
+      width: 260px;
+    }
+
+    &__item-image {
+      padding-right: 15px;
+    }
+  }
+  .subscribe {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+  }
+  .logos {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    &__image {
+      width: 100%;
+    }
+  }
+  .footer {
+    &__container {
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    &__content {
+      width: 100%;
+    }
+
+    &__column:nth-child(2) {
+      width: 230px;
+    }
+
+    &__column:nth-child(3) {
+      width: 160px;
+    }
+
+    &__payments span {
+      margin-right: 0;
+    }
+  }
+}
+
+/*@media (max-width: 768px) {
+  .top-banner {
+    &__text {
+      font-size: 50px;
+    }
+  }
+} */
+
+/*
+@media (max-width: 600px) {
+  .top-banner {
+    &__text {
+      font-size: 50px;
+    }
+  }
+}*/
+
+@media (max-width: 576px) {
+
+}
 
 
 

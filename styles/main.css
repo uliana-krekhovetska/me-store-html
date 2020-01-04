@@ -19,8 +19,7 @@ body {
   .top-banner__text {
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
-    vertical-align: center; }
+    font-weight: 700; }
 
 .meStore {
   height: 121px;
@@ -656,5 +655,102 @@ body {
   .footer__copyright span:last-child {
     padding-left: 10px;
     border-left: 1px solid #ffffff; }
+
+@media (max-width: 1200px) {
+  .top-banner__container {
+    width: 100%;
+    padding: 0 40px; }
+
+  .meStore__container {
+    width: 100%;
+    padding: 0 40px; }
+  .meStore .navbar {
+    width: 100%; }
+
+  .fashion-carnival {
+    height: 930px; }
+    .fashion-carnival__container {
+      width: 100%;
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+    .fashion-carnival__image {
+      display: none; }
+
+  .promotion__container {
+    width: 100%;
+    padding: 0 40px; }
+  .promotion .benefits__content {
+    width: 100%; }
+  .promotion .banner__content {
+    width: 100%; }
+  .promotion .banner__item {
+    width: 440px; }
+  .promotion .products {
+    width: 100%; }
+    .promotion .products__content {
+      width: 100%; }
+    .promotion .products__item:nth-child(4) {
+      display: none; }
+
+  .latest-news__container {
+    width: 100%;
+    padding: 0 40px; }
+  .latest-news__content {
+    width: 100%;
+    padding: 0 40px;
+    justify-content: space-evenly; }
+  .latest-news__item {
+    width: 250px;
+    height: 485px; }
+  .latest-news__image {
+    width: 100%; }
+
+  .summer-sale__container {
+    width: 100%;
+    padding: 0 40px; }
+  .summer-sale__content {
+    width: 260px; }
+  .summer-sale__item-image {
+    padding-right: 15px; }
+
+  .subscribe__container {
+    width: 100%;
+    padding: 0 40px; }
+
+  .logos__container {
+    width: 100%;
+    padding: 0 40px; }
+  .logos__image {
+    width: 100%; }
+
+  .footer__container {
+    width: 100%;
+    padding: 0 40px; }
+  .footer__content {
+    width: 100%; }
+  .footer__column:nth-child(2) {
+    width: 230px; }
+  .footer__column:nth-child(3) {
+    width: 160px; }
+  .footer__payments span {
+    margin-right: 0; } }
+/*@media (max-width: 768px) {
+  .top-banner {
+    &__text {
+      font-size: 50px;
+    }
+  }
+} */
+/*
+@media (max-width: 600px) {
+  .top-banner {
+    &__text {
+      font-size: 50px;
+    }
+  }
+}*/
 
 /*# sourceMappingURL=main.css.map */
