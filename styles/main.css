@@ -585,14 +585,13 @@ body {
     font-weight: 600;
     line-height: 30px; }
   .footer__column {
-    width: 305px;
+    width: 355px;
     height: 280px; }
-  .footer__column:nth-child(2) {
-    width: 250px; }
-  .footer__column:nth-child(3) {
-    width: 250px; }
-  .footer__column:nth-child(4) {
-    width: 285px; }
+  .footer__column:last-child {
+    width: 268px; }
+  .footer__row {
+    display: flex;
+    width: 562px; }
   .footer__icon {
     margin-right: 8px; }
   .footer__link {
@@ -628,7 +627,7 @@ body {
     line-height: 21.56px;
     text-transform: uppercase; }
   .footer__payments span {
-    margin-right: 10px; }
+    margin-right: 8px; }
   .footer__menu {
     color: #ffffff;
     font-size: 14px;
@@ -737,20 +736,67 @@ body {
     width: 160px; }
   .footer__payments span {
     margin-right: 0; } }
-/*@media (max-width: 768px) {
-  .top-banner {
-    &__text {
-      font-size: 50px;
-    }
-  }
-} */
-/*
-@media (max-width: 600px) {
-  .top-banner {
-    &__text {
-      font-size: 50px;
-    }
-  }
-}*/
+@media (max-width: 992px) {
+  .top-banner__text {
+    font-size: 17px; }
+
+  .meStore .navbar-collapse {
+    justify-content: center; }
+  .meStore .fa {
+    padding: 5px 5px 0 5px; }
+
+  .promotion__container {
+    height: 1170px; }
+  .promotion .benefits__title {
+    font-size: 27px; }
+  .promotion .benefits__details {
+    font-size: 14px; }
+  .promotion .banner__image {
+    width: 100%;
+    opacity: 0.5; }
+  .promotion .banner__item {
+    width: 335px;
+    height: 278px; }
+  .promotion .banner__wrapper {
+    margin-top: 40px; }
+  .promotion .products {
+    margin-top: 90px; }
+    .promotion .products__item:nth-child(3) {
+      display: none; }
+    .promotion .products__content {
+      justify-content: space-evenly; }
+
+  .latest-news {
+    height: 2180px; }
+    .latest-news__heading {
+      margin-top: 108px; }
+
+  .latest-news__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1765px; }
+  .latest-news__wrapper {
+    margin: 30px 35px 20px 30px; }
+  .latest-news__item {
+    width: 550px;
+    height: auto; }
+
+  .summer-sale__content:last-child {
+    display: none; }
+  .summer-sale .subscribe__wrapper {
+    width: 100%; }
+  .summer-sale .subscribe__form input[type=submit] {
+    width: auto; }
+
+  .footer {
+    height: auto; }
+    .footer__container {
+      margin-top: 70px; }
+    .footer__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
 
 /*# sourceMappingURL=main.css.map */

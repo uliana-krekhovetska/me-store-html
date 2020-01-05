@@ -795,20 +795,17 @@ body {
   }
 
   &__column {
-    width: 305px;
+    width: 355px;
     height: 280px;
   }
 
-  &__column:nth-child(2) {
-    width: 250px;
+  &__column:last-child {
+    width: 268px;
   }
 
-  &__column:nth-child(3) {
-    width: 250px;
-  }
-
-  &__column:nth-child(4) {
-    width: 285px;
+  &__row {
+    display: flex;
+    width: 562px;
   }
 
   &__icon {
@@ -862,7 +859,7 @@ body {
   }
 
   &__payments span {
-    margin-right: 10px;
+    margin-right: 8px;
   }
 
   &__menu {
@@ -1048,22 +1045,120 @@ body {
   }
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 992px) {
   .top-banner {
     &__text {
-      font-size: 50px;
+      font-size: 17px;
     }
   }
-} */
+  .meStore {
+    .navbar-collapse {
+      justify-content: center;
+    }
 
-/*
-@media (max-width: 600px) {
-  .top-banner {
-    &__text {
-      font-size: 50px;
+    .fa {
+      padding: 5px 5px 0 5px;
     }
   }
-}*/
+  .promotion {
+    &__container {
+      height: 1170px;
+    }
+
+    .benefits {
+      &__title {
+        font-size: 27px;
+      }
+
+      &__details {
+        font-size: 14px;
+      }
+    }
+
+    .banner {
+      &__image {
+        width: 100%;
+        opacity: 0.5;
+      }
+
+      &__item {
+        width: 335px;
+        height: 278px;
+      }
+
+      &__wrapper {
+        margin-top: 40px;
+      }
+    }
+
+    .products {
+      margin-top: 90px;
+
+      &__item:nth-child(3) {
+        display: none;
+      }
+
+      &__content {
+        justify-content: space-evenly;
+      }
+    }
+  }
+  .latest-news {
+    height: 2180px;
+
+    &__heading {
+      margin-top: 108px;
+    }
+  }
+  .latest-news {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 1765px;
+    }
+
+    &__wrapper {
+      margin: 30px 35px 20px 30px;
+    }
+
+    &__item {
+      width: 550px;
+      height: auto;
+    }
+  }
+  .summer-sale {
+    &__content:last-child {
+      display: none;
+    }
+
+    .subscribe {
+      &__wrapper {
+        width: 100%;
+      }
+
+      &__form input[type=submit] {
+        width: auto;
+      }
+    }
+  }
+  .footer {
+    height: auto;
+  &__container {
+    margin-top: 70px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+}
+
+@media (max-width: 768px) {
+
+}
 
 @media (max-width: 576px) {
 
