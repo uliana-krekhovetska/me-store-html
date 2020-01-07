@@ -280,7 +280,7 @@ body {
       margin: 0 auto;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
     }
 
     &__item {
@@ -291,6 +291,10 @@ body {
       flex-direction: row;
       justify-content: space-between;
       position: relative;
+    }
+
+    &__item:first-child {
+      margin-right: 35px;
     }
 
     &__wrapper {
@@ -1078,12 +1082,18 @@ body {
     .banner {
       &__image {
         width: 100%;
-        opacity: 0.5;
+        opacity: 0.3;
+        height: fit-content;
       }
 
       &__item {
         width: 335px;
         height: 278px;
+        background-color: white;
+      }
+
+      &__item:first-child {
+        margin-right: 30px;
       }
 
       &__wrapper {
@@ -1104,10 +1114,10 @@ body {
     }
   }
   .latest-news {
-    height: 2180px;
+    height: 2130px;
 
     &__heading {
-      margin-top: 108px;
+      margin-top: 90px;
     }
   }
   .latest-news {
@@ -1138,26 +1148,105 @@ body {
         width: 100%;
       }
 
-      &__form input[type=submit] {
+      &__form input[type=text] {
         width: auto;
       }
     }
   }
   .footer {
     height: auto;
-  &__container {
-    margin-top: 70px;
+
+    &__container {
+      margin-top: 70px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__link {
+      line-height: 32px;
+    }
+
+    &__copyright {
+      margin-bottom: 40px;
+    }
   }
-  &__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 }
 
 @media (max-width: 768px) {
+  .meStore {
+    &__email {
+      display: none;
+    }
+  }
+  .fashion-carnival {
+    &__content {
+      width: 100%;
+    }
 
+    &__title {
+      font-size: 93px;
+    }
+  }
+  .promotion {
+    height: auto;
+    &__container {
+      height: auto;
+    }
+    .benefits {
+      height: auto;
+      &__icon {
+        width: 115px;
+        height: 115px;
+      }
+      &__title {
+        font-size: 20px;
+      }
+      &__details {
+        text-align: center;
+        line-height: 18px;
+      }
+    }
+    .products {
+      &__item:nth-child(2) {
+        display: none;
+      }
+    }
+    .banner {
+      height: auto;
+      &__content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+      }
+      &__item {
+        margin: 0 auto;
+        width: 100%;
+      }
+      &__item:first-child {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .latest-news {
+    height: 2005px;
+    &__heading {
+      margin-top: 62px;
+    }
+    &__content {
+      padding: 0;
+      height: 1675px;
+    }
+    &__item {
+      width: 100%;
+      margin: 10px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
