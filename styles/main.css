@@ -460,10 +460,14 @@ body {
   background-image: url("../images/summer-sale-banner-background.png");
   background-size: cover; }
   .summer-sale__banner-wrapper {
-    margin: 88px 56px 80px 62px; }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px; }
   .summer-sale__banner-text {
     color: #ffffff;
-    font-family: 'Bebas Neue', cursive; }
+    font-family: 'Bebas Neue', cursive;
+    text-align: center; }
     .summer-sale__banner-text span:first-child {
       font-size: 75px;
       line-height: 60.99px; }
@@ -799,7 +803,8 @@ body {
   .footer {
     height: auto; }
     .footer__container {
-      margin-top: 70px; }
+      margin-top: 70px;
+      width: 100%; }
     .footer__content {
       display: flex;
       flex-direction: column;
@@ -848,14 +853,80 @@ body {
         margin-bottom: 30px; }
 
   .latest-news {
-    height: 2005px; }
+    height: auto; }
     .latest-news__heading {
       margin-top: 62px; }
+    .latest-news__container {
+      height: auto; }
     .latest-news__content {
       padding: 0;
-      height: 1675px; }
+      height: auto; }
     .latest-news__item {
       width: 100%;
-      margin: 10px; } }
+      margin: 15px 0 20px 0; }
+    .latest-news__item:last-child {
+      margin-bottom: 35px; }
+
+  .summer-sale {
+    height: auto;
+    bottom: -95px; }
+    .summer-sale__container {
+      height: auto; }
+    .summer-sale__content {
+      height: auto;
+      margin: 0 auto;
+      margin-top: 57px; }
+    .summer-sale__banner {
+      background-image: url("../images/footer-background.png");
+      background-size: cover;
+      width: 100%;
+      max-width: 495px;
+      height: auto;
+      margin: 0 auto; }
+      .summer-sale__banner-wrapper {
+        margin-top: 0;
+        padding-top: 32px; }
+      .summer-sale__banner-text {
+        width: 195px; }
+    .summer-sale__main {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 0; }
+    .summer-sale__title {
+      margin-bottom: 10px; }
+    .summer-sale .subscribe__wrapper {
+      text-align: center; }
+    .summer-sale .subscribe__title {
+      font-size: 24px; }
+    .summer-sale .subscribe__text {
+      font-size: 14px; }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 214px;
+    padding-bottom: 30px;
+    height: 325px; }
+
+  .footer__container {
+    max-width: 645px; }
+  .footer__wrapper {
+    width: max-content; }
+  .footer__row {
+    width: inherit; }
+  .footer__row:nth-child(2) {
+    margin-top: 25px; }
+  .footer__column {
+    width: inherit; }
+  .footer__contacts {
+    width: 75%; }
+  .footer__payments span {
+    margin-right: -3px; }
+  .footer__menu {
+    width: 100%; }
+    .footer__menu-list {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -631,12 +631,16 @@ body {
   background-size: cover;
 
   &-wrapper {
-    margin: 88px 56px 80px 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
   }
 
   &-text {
     color: #ffffff;
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 
     span:first-child {
       font-size: 75px;
@@ -1158,6 +1162,7 @@ body {
 
     &__container {
       margin-top: 70px;
+      width: 100%;
     }
 
     &__content {
@@ -1193,30 +1198,38 @@ body {
   }
   .promotion {
     height: auto;
+
     &__container {
       height: auto;
     }
+
     .benefits {
       height: auto;
+
       &__icon {
         width: 115px;
         height: 115px;
       }
+
       &__title {
         font-size: 20px;
       }
+
       &__details {
         text-align: center;
         line-height: 18px;
       }
     }
+
     .products {
       &__item:nth-child(2) {
         display: none;
       }
     }
+
     .banner {
       height: auto;
+
       &__content {
         height: auto;
         display: flex;
@@ -1224,27 +1237,128 @@ body {
         justify-content: center;
         align-content: center;
       }
+
       &__item {
         margin: 0 auto;
         width: 100%;
       }
+
       &__item:first-child {
         margin-bottom: 30px;
       }
     }
   }
   .latest-news {
-    height: 2005px;
+    height: auto;
+
     &__heading {
       margin-top: 62px;
     }
+
+    &__container {
+      height: auto;
+    }
+
     &__content {
       padding: 0;
-      height: 1675px;
+      height: auto;
     }
+
     &__item {
       width: 100%;
-      margin: 10px;
+      margin: 15px 0 20px 0;
+    }
+
+    &__item:last-child {
+      margin-bottom: 35px;
+    }
+  }
+  .summer-sale {
+    height: auto;
+    bottom: -95px;
+
+    &__container {
+      height: auto;
+    }
+
+    &__content {
+      height: auto;
+      margin: 0 auto;
+      margin-top: 57px;
+    }
+
+    &__banner {
+      background-image: url("../images/footer-background.png");
+      background-size: cover;
+      width: 100%;
+      max-width: 495px;
+      height: auto;
+      margin: 0 auto;
+      &-wrapper {
+        margin-top: 0;
+        padding-top: 32px;
+      }
+      &-text {
+        width: 195px;
+      }
+    }
+
+    &__main {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 0;
+    }
+    &__title {
+      margin-bottom: 10px;
+    }
+    .subscribe {
+      &__wrapper {
+        text-align: center;
+      }
+      &__title {
+        font-size: 24px;
+      }
+      &__text {
+        font-size: 14px;
+      }
+    }
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 214px;
+    padding-bottom: 30px;
+    height: 325px;
+  }
+  .footer {
+    &__container {
+      max-width: 645px;
+    }
+    &__wrapper {
+      width: max-content;
+    }
+    &__row {
+      width: inherit;
+    }
+    &__row:nth-child(2) {
+      margin-top: 25px;
+    }
+    &__column {
+      width: inherit;
+    }
+    &__contacts {
+      width: 75%;
+    }
+    &__payments span {
+      margin-right: -3px;
+    }
+    &__menu {
+      width: 100%;
+      &-list {
+        width: 100%;
+      }
     }
   }
 }
