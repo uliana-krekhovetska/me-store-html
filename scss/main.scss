@@ -39,6 +39,12 @@ body {
     margin: 0 auto;
   }
 
+  &__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 795px;
+  }
+
   &__header {
     display: flex;
     flex-direction: row;
@@ -124,7 +130,6 @@ body {
 
   .navbar-collapse {
     width: 900px;
-    justify-content: flex-end;
   }
 }
 
@@ -1036,7 +1041,14 @@ body {
     }
 
     &__content {
-      width: 100%;
+      width: auto;
+    }
+    &__row {
+      width: 425px;
+    }
+
+    &__column:first-child {
+      width: 400px;
     }
 
     &__column:nth-child(2) {
@@ -1063,7 +1075,9 @@ body {
     .navbar-collapse {
       justify-content: center;
     }
-
+    .navbar-collapse {
+      width: auto;
+    }
     .fa {
       padding: 5px 5px 0 5px;
     }
@@ -1170,6 +1184,9 @@ body {
       flex-direction: column;
       align-items: center;
     }
+    &__row {
+      width: 562px;
+    }
 
     &__link {
       line-height: 32px;
@@ -1185,6 +1202,25 @@ body {
   .meStore {
     &__email {
       display: none;
+    }
+    &__icons {
+      width: 55px;
+    }
+    &__row {
+      display: flex;
+    }
+    &__wrapper {
+      width: auto;
+    }
+
+    &__contain {
+      .navbar-toggler {
+        border-color: transparent;
+        padding: 0;
+      }
+      .fa-list-ul {
+       display: none;
+      }
     }
   }
   .fashion-carnival {
