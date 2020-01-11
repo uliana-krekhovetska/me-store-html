@@ -1106,8 +1106,9 @@ body {
 
       &__item {
         width: 335px;
-        height: 278px;
+        height: 294px;
         background-color: white;
+        border: 1px solid #80808024;
       }
 
       &__item:first-child {
@@ -1400,7 +1401,97 @@ body {
 }
 
 @media (max-width: 576px) {
-
+ .top-banner {
+   &__container {
+     padding: 0 20px;
+   }
+   &__text {
+     font-size: 14px;
+   }
+ }
+  .meStore {
+    &__container {
+      padding: 0 20px;
+    }
+    &__info {
+      font-size: 12px;
+    }
+    &__options {
+      width: 92px;
+      font-size: 12px;
+    }
+    &__logo {
+      font-size: 23px;
+    }
+  }
+  .fashion-carnival {
+    &__container {
+      padding: 0 20px;
+    }
+    &__title {
+      font-size: 50px;
+      line-height: 46.22px;
+    }
+    &__date {
+      padding-left: 32px;
+      letter-spacing: 27.79px;
+      font-size: 32px;
+    }
+    &__text {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    &__btn {
+      font-size: 18px;
+    }
+  }
+  .promotion {
+    &__container {
+      padding: 0 20px;
+    }
+    .benefits {
+      &__content {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      &__icon {
+        border: 1px solid #80808061;
+      }
+      &__item {
+        height: 190px;
+      }
+      &__title {
+        margin-top: 11px;
+      }
+      &__details {
+        margin-top: 8px;
+      }
+    }
+    .banner {
+      &__wrapper {
+      }
+      &__image {
+      }
+      &__title {
+        font-size: 34px;
+        line-height: 32.84px;
+      }
+      &__text {
+        font-size: 13px;
+      }
+      &__btn {
+        font-size: 17px;
+      }
+      &__item:first-child {
+        background-color: #fee3ece3;
+    }
+      &__img {
+        background-color: #ffffff;
+      }
+    }
+  }
 }
 
 

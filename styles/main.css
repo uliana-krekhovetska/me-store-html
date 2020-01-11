@@ -772,8 +772,9 @@ body {
     height: fit-content; }
   .promotion .banner__item {
     width: 335px;
-    height: 278px;
-    background-color: white; }
+    height: 294px;
+    background-color: white;
+    border: 1px solid #80808024; }
   .promotion .banner__item:first-child {
     margin-right: 30px; }
   .promotion .banner__wrapper {
@@ -950,5 +951,62 @@ body {
     width: 100%; }
     .footer__menu-list {
       width: 100%; } }
+@media (max-width: 576px) {
+  .top-banner__container {
+    padding: 0 20px; }
+  .top-banner__text {
+    font-size: 14px; }
+
+  .meStore__container {
+    padding: 0 20px; }
+  .meStore__info {
+    font-size: 12px; }
+  .meStore__options {
+    width: 92px;
+    font-size: 12px; }
+  .meStore__logo {
+    font-size: 23px; }
+
+  .fashion-carnival__container {
+    padding: 0 20px; }
+  .fashion-carnival__title {
+    font-size: 50px;
+    line-height: 46.22px; }
+  .fashion-carnival__date {
+    padding-left: 32px;
+    letter-spacing: 27.79px;
+    font-size: 32px; }
+  .fashion-carnival__text {
+    font-size: 13px;
+    line-height: 22px; }
+  .fashion-carnival__btn {
+    font-size: 18px; }
+
+  .promotion__container {
+    padding: 0 20px; }
+  .promotion .benefits__content {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .promotion .benefits__icon {
+    border: 1px solid #80808061; }
+  .promotion .benefits__item {
+    height: 190px; }
+  .promotion .benefits__title {
+    margin-top: 11px; }
+  .promotion .benefits__details {
+    margin-top: 8px; }
+  .promotion .banner__title {
+    font-size: 34px;
+    line-height: 32.84px; }
+  .promotion .banner__text {
+    font-size: 13px; }
+  .promotion .banner__btn {
+    font-size: 17px; }
+  .promotion .banner__item:first-child {
+    background-color: #fee3ece3; }
+  .promotion .banner__img {
+    background-color: #ffffff; } }
 
 /*# sourceMappingURL=main.css.map */
