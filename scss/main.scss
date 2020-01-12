@@ -1043,6 +1043,7 @@ body {
     &__content {
       width: auto;
     }
+
     &__row {
       width: 425px;
     }
@@ -1075,9 +1076,11 @@ body {
     .navbar-collapse {
       justify-content: center;
     }
+
     .navbar-collapse {
       width: auto;
     }
+
     .fa {
       padding: 5px 5px 0 5px;
     }
@@ -1185,6 +1188,7 @@ body {
       flex-direction: column;
       align-items: center;
     }
+
     &__row {
       width: 562px;
     }
@@ -1204,12 +1208,15 @@ body {
     &__email {
       display: none;
     }
+
     &__icons {
       width: 55px;
     }
+
     &__row {
       display: flex;
     }
+
     &__wrapper {
       width: auto;
     }
@@ -1219,8 +1226,9 @@ body {
         border-color: transparent;
         padding: 0;
       }
+
       .fa-list-ul {
-       display: none;
+        display: none;
       }
     }
   }
@@ -1331,10 +1339,12 @@ body {
       max-width: 495px;
       height: auto;
       margin: 0 auto;
+
       &-wrapper {
         margin-top: 0;
         padding-top: 32px;
       }
+
       &-text {
         width: 195px;
       }
@@ -1345,16 +1355,20 @@ body {
       flex-direction: column-reverse;
       padding-top: 0;
     }
+
     &__title {
       margin-bottom: 10px;
     }
+
     .subscribe {
       &__wrapper {
         text-align: center;
       }
+
       &__title {
         font-size: 24px;
       }
+
       &__text {
         font-size: 14px;
       }
@@ -1373,26 +1387,34 @@ body {
     &__container {
       max-width: 645px;
     }
+
     &__wrapper {
       width: max-content;
     }
+
     &__row {
       width: inherit;
     }
+
     &__row:nth-child(2) {
       margin-top: 25px;
     }
+
     &__column {
       width: inherit;
     }
+
     &__contacts {
       width: 75%;
     }
+
     &__payments span {
       margin-right: -3px;
     }
+
     &__menu {
       width: 100%;
+
       &-list {
         width: 100%;
       }
@@ -1401,25 +1423,29 @@ body {
 }
 
 @media (max-width: 576px) {
- .top-banner {
-   &__container {
-     padding: 0 20px;
-   }
-   &__text {
-     font-size: 14px;
-   }
- }
+  .top-banner {
+    &__container {
+      padding: 0 20px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+  }
   .meStore {
     &__container {
       padding: 0 20px;
     }
+
     &__info {
       font-size: 12px;
     }
+
     &__options {
       width: 92px;
       font-size: 12px;
     }
+
     &__logo {
       font-size: 23px;
     }
@@ -1428,19 +1454,23 @@ body {
     &__container {
       padding: 0 20px;
     }
+
     &__title {
       font-size: 50px;
       line-height: 46.22px;
     }
+
     &__date {
       padding-left: 32px;
       letter-spacing: 27.79px;
       font-size: 32px;
     }
+
     &__text {
       font-size: 13px;
       line-height: 22px;
     }
+
     &__btn {
       font-size: 18px;
     }
@@ -1449,6 +1479,7 @@ body {
     &__container {
       padding: 0 20px;
     }
+
     .benefits {
       &__content {
         height: auto;
@@ -1456,41 +1487,176 @@ body {
         justify-content: center;
         align-items: center;
       }
+
       &__icon {
         border: 1px solid #80808061;
       }
+
       &__item {
         height: 190px;
       }
+
       &__title {
         margin-top: 11px;
       }
+
       &__details {
         margin-top: 8px;
       }
     }
+
     .banner {
       &__wrapper {
       }
+
       &__image {
       }
+
       &__title {
         font-size: 34px;
         line-height: 32.84px;
       }
+
       &__text {
         font-size: 13px;
       }
+
       &__btn {
         font-size: 17px;
       }
+
       &__item:first-child {
         background-color: #fee3ece3;
-    }
+      }
+
+      &__item:nth-child(2) {
+        background-color: #F2F3F4;
+      }
+
       &__img {
         background-color: #ffffff;
       }
+
+      &__item {
+        height: 292px;
+        border: transparent;
+      }
     }
+
+    .products {
+      text-align: center;
+      margin-top: 65px;
+
+      &__title {
+        font-size: 23px;
+      }
+
+      &__subtitle {
+        font-size: 14px;
+      }
+    }
+  }
+  .latest-news {
+    &__info {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    &__title {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 12px;
+    }
+
+    &__text {
+      font-size: 13px;
+    }
+    &__container {
+      padding: 0 20px;
+    }
+  }
+  .summer-sale {
+    &__container {
+      padding: 0 20px;
+    }
+
+    .subscribe {
+      &__container {
+        height: auto;
+        padding: 0 20px;
+      }
+      &__title {
+        margin-top: 45px;
+        font-size: 20px;
+      }
+      &__text {
+        font-size: 12px;
+      }
+      &__form input[type=submit] {
+        margin-top: 5px;
+      }
+    }
+  }
+  .logos {
+    &__container {
+      padding: 0 20px;
+    }
+  }
+  .footer {
+    &__container {
+      padding: 0 20px;
+    }
+    &__content {
+      padding: 0 20px;
+    }
+    &__menu {
+      display: none;
+    }
+    &__row {
+      display: flex;
+      flex-direction: column;
+    }
+    &__column:first-child {
+      width: auto;
+    }
+    &__column:nth-child(2) {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 399px) {
+  .promotion {
+    .banner {
+      &__image {
+        display: none;
+      }
+
+      &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &__wrapper {
+        text-align: center;
+        margin: 0;
+      }
+
+      &__btn:nth-child(2) {
+        background-image: linear-gradient(to right, #4694e2 0%, #1874d0 100%);
+      }
+    }
+  }
+  .latest-news {
   }
 }
 
