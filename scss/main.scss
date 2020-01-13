@@ -31,7 +31,6 @@ body {
 .meStore {
   height: 121px;
   background-color: #f8f9fa87;
-  z-index: 1;
   position: relative;
 
   &__container {
@@ -1220,6 +1219,21 @@ body {
     &__wrapper {
       width: auto;
     }
+    .navbar-collapse {
+      position: absolute;
+      left: -20px;
+      top: 49px;
+      width: calc(100% + 40px);
+      padding: 0px 20px;
+      background-color: rgba(248, 249, 250, 0.53);
+      z-index: 100;
+    }
+    .navbar {
+      position: relative;
+    }
+    .nav-item {
+      line-height: 30px;
+    }
 
     &__contain {
       .navbar-toggler {
@@ -1395,6 +1409,9 @@ body {
     &__row {
       width: inherit;
     }
+    &__column:first-child {
+      width: 280px;
+    }
 
     &__row:nth-child(2) {
       margin-top: 25px;
@@ -1564,13 +1581,11 @@ body {
     }
 
     &__title {
-      font-size: 15px;
-      text-align: center;
+      font-size: 19px;
     }
 
     &__subtitle {
-      font-size: 12px;
-      text-align: center;
+      font-size: 15px;
       margin-top: 5px;
       margin-bottom: 12px;
     }
@@ -1625,9 +1640,20 @@ body {
     }
     &__column:first-child {
       width: auto;
+      height: auto;
     }
     &__column:nth-child(2) {
       width: auto;
+      height: 280px;
+      padding-top: 15px;
+    }
+    &__row:nth-child(2) {
+      position: relative;
+      bottom: 69px;
+    }
+    &__copyright {
+      font-size: 13px;
+      margin-top: 0;
     }
   }
 }
@@ -1645,6 +1671,12 @@ body {
         justify-content: center;
         align-items: center;
       }
+      &__item:first-child {
+        background-color: #f9236f3d;
+      }
+      &__item:nth-child(2) {
+        background-color: #0062cc59;
+      }
 
       &__wrapper {
         text-align: center;
@@ -1657,6 +1689,35 @@ body {
     }
   }
   .latest-news {
+    &__title {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 12px;
+    }
+  }
+  .footer {
+    &__info {
+      font-size: 13px;
+    }
+    &__contacts {
+      font-size: 12px;
+    }
+    &__link {
+      font-size: 13px;
+      line-height: 30px;
+    }
+    &__socials {
+      font-size: 13px;
+    }
+    &__copyright {
+      font-size: 11px;
+    }
   }
 }
 
