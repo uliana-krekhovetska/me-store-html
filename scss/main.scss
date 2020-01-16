@@ -1466,6 +1466,9 @@ body {
     &__logo {
       font-size: 23px;
     }
+    .navbar-collapse {
+      top: 53px;
+    }
   }
   .fashion-carnival {
     &__container {
@@ -1498,6 +1501,7 @@ body {
     }
 
     .benefits {
+      margin-bottom: -40px;
       &__content {
         height: auto;
         flex-direction: column;
@@ -1510,7 +1514,7 @@ body {
       }
 
       &__item {
-        height: 190px;
+        height: 200px;
       }
 
       &__title {
@@ -1562,7 +1566,7 @@ body {
 
     .products {
       text-align: center;
-      margin-top: 65px;
+      margin-top: 37px;
 
       &__title {
         font-size: 23px;
@@ -1584,6 +1588,10 @@ body {
       font-size: 19px;
     }
 
+    &__heading {
+      margin-top: 35px;
+    }
+
     &__subtitle {
       font-size: 15px;
       margin-top: 5px;
@@ -1600,6 +1608,13 @@ body {
   .summer-sale {
     &__container {
       padding: 0 20px;
+      bottom: 127px;
+    }
+    &__content {
+      margin-top: 50px;
+    }
+    &__title {
+      margin-bottom: 0;
     }
 
     .subscribe {
@@ -1613,8 +1628,14 @@ body {
       }
       &__text {
         font-size: 12px;
+        margin-bottom: 23px;
+      }
+      &__form input[type=text] {
+        width: 100%;
       }
       &__form input[type=submit] {
+        width: 100%;
+        margin-left: 0;
         margin-top: 5px;
       }
     }
@@ -1630,6 +1651,7 @@ body {
     }
     &__content {
       padding: 0 20px;
+      align-items: flex-start;
     }
     &__menu {
       display: none;

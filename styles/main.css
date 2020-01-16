@@ -979,6 +979,8 @@ body {
     font-size: 12px; }
   .meStore__logo {
     font-size: 23px; }
+  .meStore .navbar-collapse {
+    top: 53px; }
 
   .fashion-carnival__container {
     padding: 0 20px; }
@@ -997,19 +999,21 @@ body {
 
   .promotion__container {
     padding: 0 20px; }
-  .promotion .benefits__content {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-  .promotion .benefits__icon {
-    border: 1px solid #80808061; }
-  .promotion .benefits__item {
-    height: 190px; }
-  .promotion .benefits__title {
-    margin-top: 11px; }
-  .promotion .benefits__details {
-    margin-top: 8px; }
+  .promotion .benefits {
+    margin-bottom: -40px; }
+    .promotion .benefits__content {
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .promotion .benefits__icon {
+      border: 1px solid #80808061; }
+    .promotion .benefits__item {
+      height: 200px; }
+    .promotion .benefits__title {
+      margin-top: 11px; }
+    .promotion .benefits__details {
+      margin-top: 8px; }
   .promotion .banner__title {
     font-size: 34px;
     line-height: 32.84px; }
@@ -1028,7 +1032,7 @@ body {
     border: transparent; }
   .promotion .products {
     text-align: center;
-    margin-top: 65px; }
+    margin-top: 37px; }
     .promotion .products__title {
       font-size: 23px; }
     .promotion .products__subtitle {
@@ -1040,6 +1044,8 @@ body {
     margin-bottom: 30px; }
   .latest-news__title {
     font-size: 19px; }
+  .latest-news__heading {
+    margin-top: 35px; }
   .latest-news__subtitle {
     font-size: 15px;
     margin-top: 5px;
@@ -1050,7 +1056,12 @@ body {
     padding: 0 20px; }
 
   .summer-sale__container {
-    padding: 0 20px; }
+    padding: 0 20px;
+    bottom: 127px; }
+  .summer-sale__content {
+    margin-top: 50px; }
+  .summer-sale__title {
+    margin-bottom: 0; }
   .summer-sale .subscribe__container {
     height: auto;
     padding: 0 20px; }
@@ -1058,8 +1069,13 @@ body {
     margin-top: 45px;
     font-size: 20px; }
   .summer-sale .subscribe__text {
-    font-size: 12px; }
+    font-size: 12px;
+    margin-bottom: 23px; }
+  .summer-sale .subscribe__form input[type=text] {
+    width: 100%; }
   .summer-sale .subscribe__form input[type=submit] {
+    width: 100%;
+    margin-left: 0;
     margin-top: 5px; }
 
   .logos__container {
@@ -1068,7 +1084,8 @@ body {
   .footer__container {
     padding: 0 20px; }
   .footer__content {
-    padding: 0 20px; }
+    padding: 0 20px;
+    align-items: flex-start; }
   .footer__menu {
     display: none; }
   .footer__row {
