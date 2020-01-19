@@ -201,6 +201,10 @@ body {
     border: none;
     margin-top: 57px;
   }
+  &__btn:hover {
+      background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
+      box-shadow: 5px 12px 22px 10px #FA9798;
+  }
 
   &__image {
     position: relative;
@@ -307,6 +311,10 @@ body {
       z-index: 1;
       margin-top: 46px;
       margin-left: 43px;
+    }
+    &__btn:hover {
+      background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
+      box-shadow: 5px 12px 22px 10px #FA9798;
     }
 
     &__title {
@@ -514,17 +522,24 @@ body {
     background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
     border: none;
   }
+  &__btn:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
+  }
 
   &__icons {
     float: right;
     position: relative;
-    top: 15px;
+    top: 13px;
   }
 
   .fa {
     font-size: 15px;
     color: #f92349;
+    cursor: pointer;
   }
+  .fa:hover {
+    color: red;
+}
 
   .fa-heart {
     padding-right: 10px;
@@ -737,6 +752,9 @@ body {
     font-size: 13px;
     font-weight: 700;
     margin-left: 5px;
+  }
+  &__form input[type=submit]:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
   }
 }
 
@@ -1203,6 +1221,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .top-banner {
+    height: 65px;
+  }
   .meStore {
     &__email {
       display: none;

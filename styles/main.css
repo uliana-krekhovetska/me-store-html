@@ -149,6 +149,9 @@ body {
     cursor: pointer;
     border: none;
     margin-top: 57px; }
+  .fashion-carnival__btn:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
+    box-shadow: 5px 12px 22px 10px #FA9798; }
   .fashion-carnival__image {
     position: relative;
     right: 151px;
@@ -228,6 +231,9 @@ body {
     z-index: 1;
     margin-top: 46px;
     margin-left: 43px; }
+  .promotion .banner__btn:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
+    box-shadow: 5px 12px 22px 10px #FA9798; }
   .promotion .banner__title {
     font-size: 48px;
     font-weight: bold;
@@ -378,13 +384,18 @@ body {
     background-color: #000000;
     background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
     border: none; }
+  .latest-news__btn:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%); }
   .latest-news__icons {
     float: right;
     position: relative;
-    top: 15px; }
+    top: 13px; }
   .latest-news .fa {
     font-size: 15px;
-    color: #f92349; }
+    color: #f92349;
+    cursor: pointer; }
+  .latest-news .fa:hover {
+    color: red; }
   .latest-news .fa-heart {
     padding-right: 10px;
     border-right: 1px solid #b9b9b9; }
@@ -539,6 +550,8 @@ body {
     font-size: 13px;
     font-weight: 700;
     margin-left: 5px; }
+  .subscribe__form input[type=submit]:hover {
+    background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%); }
 
 .logos {
   height: 309px;
@@ -825,6 +838,9 @@ body {
     .footer__copyright {
       margin-bottom: 40px; } }
 @media (max-width: 768px) {
+  .top-banner {
+    height: 65px; }
+
   .meStore__email {
     display: none; }
   .meStore__icons {
