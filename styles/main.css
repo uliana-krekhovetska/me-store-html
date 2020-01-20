@@ -151,7 +151,7 @@ body {
     margin-top: 57px; }
   .fashion-carnival__btn:hover {
     background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
-    box-shadow: 5px 12px 22px 10px #FA9798; }
+    /*box-shadow: 5px 12px 22px 10px #FA9798;*/ }
   .fashion-carnival__image {
     position: relative;
     right: 151px;
@@ -233,7 +233,7 @@ body {
     margin-left: 43px; }
   .promotion .banner__btn:hover {
     background-image: linear-gradient(to right, #ef062c 100%, #f9236f 100%);
-    box-shadow: 5px 12px 22px 10px #FA9798; }
+    /*box-shadow: 5px 12px 22px 10px #FA9798;*/ }
   .promotion .banner__title {
     font-size: 48px;
     font-weight: bold;
@@ -534,6 +534,13 @@ body {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 34px; }
+  .subscribe__form {
+    width: 654px;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
   .subscribe__form input[type=text] {
     width: 516px;
     height: 38px;
@@ -706,8 +713,6 @@ body {
     width: 100%; }
   .promotion .banner__content {
     width: 100%; }
-  .promotion .banner__item {
-    width: 440px; }
   .promotion .products {
     width: 100%; }
     .promotion .products__content {
@@ -783,7 +788,6 @@ body {
     opacity: 0.3;
     height: fit-content; }
   .promotion .banner__item {
-    width: 335px;
     height: 294px;
     background-color: white;
     border: 1px solid #80808024; }
@@ -819,8 +823,6 @@ body {
     display: none; }
   .summer-sale .subscribe__wrapper {
     width: 100%; }
-  .summer-sale .subscribe__form input[type=text] {
-    width: auto; }
 
   .footer {
     height: auto; }
@@ -946,6 +948,12 @@ body {
       margin-bottom: 10px; }
     .summer-sale .subscribe__wrapper {
       text-align: center; }
+    .summer-sale .subscribe__form {
+      width: 100%; }
+    .summer-sale .subscribe__form input[type=submit] {
+      width: 30%; }
+    .summer-sale .subscribe__form input[type=text] {
+      width: 70%; }
     .summer-sale .subscribe__title {
       font-size: 24px; }
     .summer-sale .subscribe__text {
@@ -1090,12 +1098,18 @@ body {
   .summer-sale .subscribe__text {
     font-size: 12px;
     margin-bottom: 23px; }
+  .summer-sale .subscribe__form {
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
   .summer-sale .subscribe__form input[type=text] {
     width: 100%; }
   .summer-sale .subscribe__form input[type=submit] {
     width: 100%;
     margin-left: 0;
-    margin-top: 5px; }
+    margin-top: 6px; }
 
   .logos {
     padding-bottom: 51px; }
