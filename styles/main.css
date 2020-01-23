@@ -76,6 +76,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 5px; }
+  .meStore .fa:hover {
+    transform: scale(1.4, 1.4); }
   .meStore .top-menu__link {
     color: #222222 !important;
     font-size: 16px;
@@ -91,6 +93,9 @@ body {
   .meStore .nav-link {
     padding-bottom: 0;
     padding-top: 0; }
+  .meStore .nav-link:hover {
+    transform: scale(1.2, 1.2);
+    color: #1874d0; }
   .meStore .navbar-collapse {
     width: 900px; }
 
@@ -99,7 +104,8 @@ body {
   background-image: url("../images/fashion-carnival-background.png"), url("../images/fashion-carnival-image.png");
   background-blend-mode: overlay;
   background-size: cover;
-  margin-top: -121px; }
+  margin-top: -121px;
+  overflow: hidden; }
   .fashion-carnival__container {
     width: 1171px;
     padding-top: 200px;
@@ -710,7 +716,8 @@ body {
     width: 100%;
     padding: 0 40px; }
   .promotion .benefits__content {
-    width: 100%; }
+    width: 100%;
+    justify-content: space-evenly; }
   .promotion .banner__content {
     width: 100%; }
   .promotion .products {
@@ -780,9 +787,9 @@ body {
   .promotion__container {
     height: 1170px; }
   .promotion .benefits__title {
-    font-size: 27px; }
+    font-size: 24px; }
   .promotion .benefits__details {
-    font-size: 14px; }
+    font-size: 13px; }
   .promotion .banner__image {
     width: 100%;
     opacity: 0.3;
@@ -884,11 +891,16 @@ body {
       height: auto; }
     .promotion .benefits {
       height: auto; }
+      .promotion .benefits__item {
+        width: 132px;
+        margin-right: 40px; }
+      .promotion .benefits__item:nth-child(3) {
+        margin-right: 0; }
       .promotion .benefits__icon {
         width: 115px;
         height: 115px; }
       .promotion .benefits__title {
-        font-size: 20px; }
+        font-size: 18px; }
       .promotion .benefits__details {
         text-align: center;
         line-height: 18px; }
@@ -925,7 +937,8 @@ body {
       height: auto; }
     .latest-news__item {
       width: 100%;
-      margin: 15px 0 20px 0; }
+      margin: 15px 0 20px 0;
+      max-width: 550px; }
     .latest-news__item:last-child {
       margin-bottom: 35px; }
 
@@ -1045,7 +1058,8 @@ body {
     .promotion .benefits__icon {
       border: 1px solid #80808061; }
     .promotion .benefits__item {
-      height: 200px; }
+      height: 200px;
+      margin-right: 0; }
     .promotion .benefits__title {
       margin-top: 11px; }
     .promotion .benefits__details {
