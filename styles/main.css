@@ -75,7 +75,8 @@ body {
     color: #222222;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    cursor: pointer; }
   .meStore .fa:hover {
     transform: scale(1.4, 1.4); }
   .meStore .top-menu__link {
