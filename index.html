@@ -11,6 +11,10 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
           integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+          integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+          integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=" crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
@@ -36,39 +40,40 @@
             <nav class="top-menu navbar navbar-expand-md navbar-light">
                 <div class="meStore__logo navbar-brand">MeStore</div>
                 <div class="meStore__wrapper">
-                <div class="meStore__row">
-                    <div class="meStore__icons">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        <i class="fa fa-list-ul" aria-hidden="true"></i>
+                    <div class="meStore__row">
+                        <div class="meStore__icons">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <i class="fa fa-list-ul" aria-hidden="true"></i>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbar-toggler"
+                                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler"
-                            aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-toggler">
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="top-menu__link nav-link" href="#">Page</a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="collapse navbar-collapse" id="navbar-toggler">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="top-menu__link nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -205,6 +210,70 @@
                         <span>$69.00</span>
                     </div>
                 </div>
+                <div class="products__item">
+                    <div class="products__image"><img src="images/product-image-1.png" alt="image"></div>
+                    <div class="products__name">Orange T-shirt</div>
+                    <div class="products__brand">Nike</div>
+                    <div class="products__rate">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="products__price">
+                        <span>$74.00</span>
+                        <span>$69.00</span>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__image"><img src="images/product-image-2.png" alt="image"></div>
+                    <div class="products__name">Orange T-shirt</div>
+                    <div class="products__brand">Nike</div>
+                    <div class="products__rate">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="products__price">
+                        <span>$74.00</span>
+                        <span>$69.00</span>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__image"><img src="images/product-image-3.png" alt="image"></div>
+                    <div class="products__name">Orange T-shirt</div>
+                    <div class="products__brand">Nike</div>
+                    <div class="products__rate">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="products__price">
+                        <span>$74.00</span>
+                        <span>$69.00</span>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__image"><img src="images/product-image-4.png" alt="image"></div>
+                    <div class="products__name">Orange T-shirt</div>
+                    <div class="products__brand">Nike</div>
+                    <div class="products__rate">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="products__price">
+                        <span>$74.00</span>
+                        <span>$69.00</span>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -215,8 +284,7 @@
         <h3 class="latest-news__info">Praesent mauris. Fusce nec tellus sed augue semper porta.</h3>
         <div class="latest-news__content">
             <div class="latest-news__item">
-                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-news-image-1.png"
-                                                   alt="image"></div>
+                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-news-image-1.png" alt="image"></div>
                 <div class="latest-news__wrapper">
                     <div class="latest-news__title">Porem ipsum dolor sit ame</div>
                     <div class="latest-news__subtitle">Lorem Ipsum. Proin gravida nibh</div>
@@ -231,8 +299,7 @@
                 </div>
             </div>
             <div class="latest-news__item">
-                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-news-image-2.png"
-                                                   alt="image"></div>
+                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-news-image-2.png" alt="image"></div>
                 <div class="latest-news__wrapper">
                     <div class="latest-news__title">Porem ipsum dolor sit ame</div>
                     <div class="latest-news__subtitle">Lorem Ipsum. Proin gravida nibh</div>
@@ -247,8 +314,7 @@
                 </div>
             </div>
             <div class="latest-news__item">
-                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-image-3.png"
-                                                   alt="image"></div>
+                <div class="latest-news__img"><img class="latest-news__image" src="images/latest-image-3.png" alt="image"></div>
                 <div class="latest-news__wrapper">
                     <div class="latest-news__title">Porem ipsum dolor sit ame</div>
                     <div class="latest-news__subtitle">Lorem Ipsum. Proin gravida nibh</div>
@@ -573,5 +639,44 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('.products__content').slick({
+            infinite: false,
+            dots: true,
+            vertical: false,
+            arrows: true,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 3,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 577,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 </body>
 </html>

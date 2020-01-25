@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
 
   &__text {
@@ -26,7 +27,13 @@ body {
     font-size: 20px;
     font-weight: 700;
   }
+  .fa-times {
+    background-color: #ffffff;
+    padding: 11px 13px;
+    border-radius: 50%;
+  }
 }
+
 
 .meStore {
   height: 121px;
@@ -400,6 +407,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      padding-left: 22px;
     }
 
     &__item {
@@ -868,6 +876,7 @@ body {
     font-size: 16px;
     line-height: 40px;
     font-weight: 500;
+    cursor: pointer;
   }
 
   &__socials {
@@ -875,6 +884,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+    cursor: pointer;
   }
 
   &__wrapper {
@@ -907,6 +917,10 @@ body {
     font-weight: 400;
     line-height: 21.56px;
     text-transform: uppercase;
+    cursor: pointer;
+  }
+  .fa {
+    cursor: pointer;
   }
 
   &__payments span {
@@ -1109,6 +1123,9 @@ body {
   .top-banner {
     &__text {
       font-size: 17px;
+    }
+    .fa-times {
+      padding: 8px 10px;
     }
   }
   .meStore {
@@ -1519,6 +1536,9 @@ body {
 @media (max-width: 576px) {
   .top-banner {
     height: 70px;
+    .fa-times {
+      padding: 6px 8px;
+    }
     &__container {
       padding: 0 20px;
     }
@@ -1733,7 +1753,7 @@ body {
       &__form input[type=submit] {
         width: 100%;
         margin-left: 0;
-        margin-top: 6px;
+        margin-top: 7px;
       }
     }
   }
@@ -1797,8 +1817,7 @@ body {
     }
 
     &__row:nth-child(2) {
-      position: relative;
-      bottom: 133px;
+      margin-top: -110px;
     }
 
     &__copyright {
@@ -1823,8 +1842,14 @@ body {
 }
 
 @media (max-width: 399px) {
+  .top-banner {
+    .fa-times {
+      padding: 3px 5px;
+    }
+  }
   .promotion {
     .banner {
+
       &__image {
         display: none;
       }
