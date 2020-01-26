@@ -1102,6 +1102,7 @@ body {
     height: 292px;
     border: transparent; }
   .promotion .products {
+    height: 580px;
     text-align: center;
     margin-top: 37px; }
     .promotion .products__title {
