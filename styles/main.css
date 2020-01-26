@@ -300,26 +300,30 @@ body {
       margin: 0 auto;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      padding-left: 22px; }
+      justify-content: space-between; }
     .promotion .products__item {
       width: 249px;
       height: 415px;
-      display: flex;
+      display: flex !important;
       flex-direction: column;
       justify-content: flex-start;
-      align-items: center; }
+      align-items: center;
+      text-align: center; }
     .promotion .products__name {
       color: #000000;
       font-size: 18px;
       font-weight: 700;
-      line-height: 27px; }
+      line-height: 27px;
+      margin-top: 15px; }
     .promotion .products__brand {
       font-size: 16px;
       margin-bottom: 19px; }
     .promotion .products__rate {
-      width: 90px;
       height: 14px; }
+    .promotion .products .slick-arrow::before {
+      color: #f92357; }
+    .promotion .products .slick-dots {
+      bottom: -80px; }
     .promotion .products .fa {
       color: #ffc808;
       font-size: 15px; }
@@ -733,11 +737,9 @@ body {
   .promotion .banner__content {
     width: 100%; }
   .promotion .products {
-    width: 100%; }
+    width: auto; }
     .promotion .products__content {
       width: 100%; }
-    .promotion .products__item:nth-child(4) {
-      display: none; }
 
   .latest-news__container {
     width: 100%;
@@ -822,15 +824,17 @@ body {
     background-color: #ffffff; }
   .promotion .products {
     margin-top: 90px; }
-    .promotion .products__item:nth-child(3) {
-      display: none; }
+    .promotion .products__item {
+      display: flex; }
     .promotion .products__content {
-      justify-content: space-evenly; }
+      max-width: 750px; }
+    .promotion .products .slick-dots {
+      bottom: -45px; }
 
   .latest-news {
     height: 2130px; }
     .latest-news__heading {
-      margin-top: 90px; }
+      margin-top: 75px; }
 
   .latest-news__content {
     display: flex;
@@ -1104,6 +1108,10 @@ body {
       font-size: 23px; }
     .promotion .products__subtitle {
       font-size: 14px; }
+    .promotion .products__content {
+      max-width: 320px; }
+    .promotion .products__rate {
+      width: auto; }
 
   .latest-news__info {
     font-size: 14px;
